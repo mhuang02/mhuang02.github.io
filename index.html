@@ -17361,7 +17361,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="c1">#creating a copy of the current dataframe</span>
@@ -17370,7 +17370,7 @@ class="
 
 <span class="n">column</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">correlations</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
-    <span class="k">if</span> <span class="p">(</span><span class="n">correlations</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">&gt;</span><span class="mf">0.2</span> <span class="ow">or</span> <span class="n">correlations</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">&lt;-</span><span class="mf">0.2</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">correlations</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">&gt;</span><span class="mf">0.15</span> <span class="ow">or</span> <span class="n">correlations</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">&lt;-</span><span class="mf">0.15</span><span class="p">):</span>
         <span class="n">column</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">col</span><span class="p">)</span>
 <span class="n">column</span>
 </pre></div>
@@ -17390,7 +17390,7 @@ class="
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
 
 
 
@@ -17891,7 +17891,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Decision Tree Classifier</p>
+<p><strong>Decision Tree Classifier</strong></p>
 
 </div>
 </div>
@@ -17971,7 +17971,7 @@ weighted avg       0.68      0.68      0.68      2964
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Logistic Regression<br>
+<p><strong>Logistic Regression</strong><br>
 Here we will use logistic regression over linear regression because we want to predict probabilities of categorical outcomes, rather than continuous outcomes.</p>
 
 </div>
@@ -18044,7 +18044,7 @@ weighted avg       0.73      0.73      0.73      2964
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Naive Bayes</p>
+<p><strong>Naive Bayes</strong></p>
 
 </div>
 </div>
@@ -18117,7 +18117,7 @@ weighted avg       0.73      0.73      0.73      2964
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Here is a compact view of all the accuracies in sorted order from least accurate to most accurate.</p>
+<p><br>Here is a compact view of all the accuracies in sorted order from least accurate to most accurate. <br></p>
 
 </div>
 </div>
@@ -18174,7 +18174,7 @@ Logistic Regression        0.732119
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Looking at this data, we can see that Logistic Regression has the highest accuracy out of the three. Now lets look at precision and recall for each classifier.</p>
+<p><br>Looking at this data, we can see that Logistic Regression has the highest accuracy out of the three. Now lets look at precision and recall for each classifier. <br></p>
 
 </div>
 </div>
@@ -18222,12 +18222,36 @@ Precision score for logistic regression:[0.73918919 0.72506739]
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><strong>Insights and Conclusions</strong></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Based off our correlations and our ML analysis, factors to consider in a game include kills, gold, and experience. These features play more of a role when it comes to determining the outcome of a game. Because there is so much variation in a game of League of Legends, there is no one formula fits all where if you just focus on getting "x" amount of kills, or "x" amount of gold/experience difference, then you automatically win the game. Because games are played by actual people, players can make user errors, which can invalid the results of a game. For example, even though one team may have on average a higher amount of kills at ten minutes into the game, they could still lose the game due to other factors that happen after the first ten minutes. Additionally, becuse our data was uploaded four years ago, things may have changed, at least in relation to the professional League of Legends scene. Regardless, we hope that further research can be done on exploring game data as League of Legends continues to evolve.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="n">index</span><span class="o">.</span><span class="n">ipynb</span>
@@ -18253,7 +18277,7 @@ Precision score for logistic regression:[0.73918919 0.72506739]
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>[NbConvertApp] Converting notebook index.ipynb to html
-[NbConvertApp] Writing 1114648 bytes to index.html
+[NbConvertApp] Writing 1135628 bytes to index.html
 </pre>
 </div>
 </div>
